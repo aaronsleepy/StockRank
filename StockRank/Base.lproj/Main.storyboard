@@ -57,7 +57,7 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000원" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MfK-YZ-Gsc">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000원" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MfK-YZ-Gsc" userLabel="Company Price Label">
                                                     <rect key="frame" x="110.00000000000001" y="77" width="38.666666666666671" height="14.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -95,6 +95,13 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="392" height="140"/>
+                                        <connections>
+                                            <outlet property="companyDiffLabel" destination="C8b-ha-1LM" id="kAD-Ba-Mo6"/>
+                                            <outlet property="companyIconImageView" destination="G1u-Vz-tei" id="7ZJ-NC-6KP"/>
+                                            <outlet property="companyNameLabel" destination="1vv-Pe-dKk" id="fSj-En-AG6"/>
+                                            <outlet property="companyPriceLabel" destination="C8b-ha-1LM" id="koL-Ud-Urf"/>
+                                            <outlet property="rankLabel" destination="S4P-3o-Mki" id="Xzk-H9-wZg"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
