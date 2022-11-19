@@ -1,6 +1,7 @@
 # StockRank
 StockRank - UIKit/Storyboard 예제
 
+![image](https://user-images.githubusercontent.com/89061309/202840591-65a25fa5-238b-48c3-aaf3-ff7910882bd7.png)
 
 
 ## 학습자료
