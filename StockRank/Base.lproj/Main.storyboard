@@ -99,7 +99,7 @@
                                             <outlet property="companyDiffLabel" destination="C8b-ha-1LM" id="kAD-Ba-Mo6"/>
                                             <outlet property="companyIconImageView" destination="G1u-Vz-tei" id="7ZJ-NC-6KP"/>
                                             <outlet property="companyNameLabel" destination="1vv-Pe-dKk" id="fSj-En-AG6"/>
-                                            <outlet property="companyPriceLabel" destination="C8b-ha-1LM" id="koL-Ud-Urf"/>
+                                            <outlet property="companyPriceLabel" destination="MfK-YZ-Gsc" id="mKl-le-c1k"/>
                                             <outlet property="rankLabel" destination="S4P-3o-Mki" id="Xzk-H9-wZg"/>
                                         </connections>
                                     </collectionViewCell>

@@ -19,9 +19,18 @@ class StockRankCollectionViewCell: UICollectionViewCell {
         rankLabel.text = "\(stock.rank)"
         companyIconImageView.image = UIImage(named: stock.imageName)
         companyNameLabel.text = stock.name
-        companyPriceLabel.text = "\(stock.price)원"
+        companyPriceLabel.text = "\(convertCurrencyFormat(stock.price))원"
         companyDiffLabel.text = "\(stock.diff)%"
     }
     
-    
+    func convertCurrencyFormat(_ price: Int) -> String {
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .decimal
+        numberFormatter.maximumFractionDigits = 0
+        
+        let result = numberFormatter.string(from: NSNumber(value: price)) ?? ""
+        
+        return result
+    }
+
 }
