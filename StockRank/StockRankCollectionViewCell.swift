@@ -21,6 +21,18 @@ class StockRankCollectionViewCell: UICollectionViewCell {
         companyNameLabel.text = stock.name
         companyPriceLabel.text = "\(convertCurrencyFormat(stock.price))원"
         companyDiffLabel.text = "\(stock.diff)%"
+        companyDiffLabel.textColor = converColorByDiff(stock.diff)
+    }
+    
+    func converColorByDiff(_ diff: Double) -> UIColor {
+        let color: UIColor
+        if diff > 0 {
+            color = UIColor.systemRed
+        } else {
+            color = UIColor.systemBlue
+        }
+        
+        return color
     }
     
     func convertCurrencyFormat(_ price: Int) -> String {
