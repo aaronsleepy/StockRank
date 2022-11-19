@@ -17,6 +17,7 @@
 		9340ECAB2928A3E500D228AE /* StockRankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340ECAA2928A3E500D228AE /* StockRankUITests.swift */; };
 		9340ECAD2928A3E500D228AE /* StockRankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340ECAC2928A3E500D228AE /* StockRankUITestsLaunchTests.swift */; };
 		9340ECBA2928B27500D228AE /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340ECB92928B27500D228AE /* StockModel.swift */; };
+		9340ECBC2928B5B300D228AE /* StockRankCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340ECBB2928B5B300D228AE /* StockRankCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9340ECAA2928A3E500D228AE /* StockRankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankUITests.swift; sourceTree = "<group>"; };
 		9340ECAC2928A3E500D228AE /* StockRankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9340ECB92928B27500D228AE /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
+		9340ECBB2928B5B300D228AE /* StockRankCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9340EC8D2928A3E300D228AE /* StockRankViewController.swift */,
 				9340ECB92928B27500D228AE /* StockModel.swift */,
 				9340EC8F2928A3E300D228AE /* Main.storyboard */,
+				9340ECBB2928B5B300D228AE /* StockRankCollectionViewCell.swift */,
 				9340EC922928A3E500D228AE /* Assets.xcassets */,
 				9340EC942928A3E500D228AE /* LaunchScreen.storyboard */,
 				9340EC972928A3E500D228AE /* Info.plist */,
@@ -263,6 +266,7 @@
 			files = (
 				9340ECBA2928B27500D228AE /* StockModel.swift in Sources */,
 				9340EC8E2928A3E300D228AE /* StockRankViewController.swift in Sources */,
+				9340ECBC2928B5B300D228AE /* StockRankCollectionViewCell.swift in Sources */,
 				9340EC8A2928A3E300D228AE /* AppDelegate.swift in Sources */,
 				9340EC8C2928A3E300D228AE /* SceneDelegate.swift in Sources */,
 			);
